@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Qwitcher+Grypen:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.left-panel{
+    height: 100vh;
+    background-color: #ce3d3d;
+    width: 200px;
+}
+.left-panel .logo img{
+    height: 31px;
+    width: 168px;
+    margin-top: 37px;
+    margin-left: 16px;
+}
+.left-panel .black{
+    margin-top: 33px;
+    height: 5px;
+    width: 200px;
+    background-color: #2a2525;
+}
+.left-panel .user img{
+    height: 26px;
+    margin-top: 15px;
+    margin-left: 14px;
+    float: left;
+}
+.left-panel .user .name{
+    margin-top: 17px;
+    margin-left: 16px;
+    font-size: 16px;
+    float: left;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.left-panel .left img{
+    height: 26px;
+    margin-top: 77px;
+    margin-left: -146px;
+    float: left;
+}
+.left-panel .left .name{
+    margin-top: 45px;
+    margin-left: 14px;
+    font-size: 18px; 
+    float: left;
+    color: #fff;
+    font-weight: 400;
+}
+.second{
+    height: 25px;
+    width: 30px;
+}
+.courses h1{
+    margin-top: -44.5%;
+    margin-left: 230px;
+    color: #262626;
+    font-family: "Noto Serif",serif;
+    font-size: 1.875rem;
+    font-weight: 400;
+}
+.courses .black{
+    margin-top: 36px;
+    margin-left: 200px;
+    height: 1px;
+    width: 87%;
+    background-color: #d6d2d2;
+}
+.current .black{
+    margin-top: 20px;
+    margin-left: 200px;
+    height: 1px;
+    width: 87%;
+    background-color: #d6d2d2;
+    border-bottom: 4px solid #c0bbbb ;
+}
+.current h1{
+    text-align: center;
+    margin-top: 22px;
+    color: #7c7878;
+    font-family: "Noto Serif",serif;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.current h6{
+    text-align: center;
+    margin-top: -20px;
+    margin-left: 80%;
+    color: #3a3838;
+    font-family: "Noto Serif",serif;
+    font-size: 0.9rem;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.current h6:hover{
+    text-decoration: underline;
+}
+
+.course-name{
+    display: flex;
+    align-items: center;
+    margin-top: 118px;
+    margin-left: 220px;
+    cursor: pointer;
+}
+.box1:hover{
+    transform:  translateY(-3px);
+    transition: 0.4s ease;
+    -webkit-box-shadow: 2px 4px 56px -17px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 4px 56px -17px rgba(0,0,0,0.75);
+box-shadow: 2px 4px 56px -17px rgba(0,0,0,0.75);
+}
+.box2:hover{
+    transform:  translateY(-3px);
+    transition: 0.4s ease;
+    -webkit-box-shadow: 2px 4px 56px -17px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 4px 56px -17px rgba(0,0,0,0.75);
+box-shadow: 2px 4px 56px -17px rgba(0,0,0,0.75);
+}
+.box3:hover{
+    transform:  translateY(-3px);
+    transition: 0.4s ease;
+    -webkit-box-shadow: 2px 4px 56px -17px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 4px 56px -17px rgba(0,0,0,0.75);
+box-shadow: 2px 4px 56px -17px rgba(0,0,0,0.75);
+}
+.box4:hover{
+    transform:  translateY(-3px);
+    transition: 0.4s ease;
+    -webkit-box-shadow: 2px 4px 56px -17px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 4px 56px -17px rgba(0,0,0,0.75);
+box-shadow: 2px 4px 56px -17px rgba(0,0,0,0.75);
+}
+.fitem{
+    border: 1px solid rgb(196, 192, 192);
+    width: 300px;
+    height: 240px;
+    margin: 12px;
+}
+.fitem img{
+    width: 300px;
+    height: 130px;
+}
+.code{
+    color: #5f5c5c;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.subject{
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 12px;
+    color: #494848;
+    font-weight: 600;
+    text-align: left;
+}
+.subject:hover{
+    text-decoration: underline;
+}
+.tname{
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 20px;
+    color: #5f5c5c;
+}
+.left ul{
+    text-decoration: none;
+}
+.left ul li a{
+    text-decoration: none;
+}
+.left ul li a p{
+    color: #fff;
+    font-size: 18px;
+    font-size: 17px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.terms{
+    margin-left: 12px;
+    margin-top: 98px;
+}
+.terms p{
+    color: #d6c8c8;
+}
+.terms a{
+    text-decoration: none;
+}
+.line img{
+    height: 20px;
+    width: 30px;
+}
